@@ -1,0 +1,910 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.bigbox{
+    height: 657px;
+    width: 100%;
+    background-color: gainsboro;
+    position: relative;
+}
+div.sidebar{
+    position: absolute;
+    height: 657px;
+    width: 250px;
+    background-color: aqua;
+}
+div.container{
+   display: grid;
+   place-items: center;
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   display: block;
+}
+div.groupmenu{
+    cursor: pointer;
+}
+div.menu{
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    margin-top: 4px;
+}
+.frame1{
+    visibility: hidden;
+}
+.frame1 .info{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+}
+.frame1 .info:hover{
+     background-color: black;
+     color: white;
+}
+span{
+    margin-left: 20px;
+}
+.style{
+    width: 200px;
+    height: 195px;
+    background-color: white;
+    position: absolute;
+    left: 50px;
+    top: 5px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.493);
+}
+div.box3{
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    background-color: white ;
+    border-radius: 50px;
+    color: black;
+    left: 40px;
+    top: 220px;
+}
+div.box3:hover{
+    background-color: black;
+    color: white;
+}
+p2{
+    top: 15px;
+    left: 40px;
+    position: absolute;
+}
+div.box4{
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    left: 40px;
+    top: 300px;
+}
+div.box4:hover{
+    background-color: black;
+    color: white;
+}
+p3{
+    top: 15px;
+    left: 50px;
+    position: absolute;
+}
+div.box5{
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    left: 40px;
+    top: 380px;
+}
+div.box5:hover{
+    background-color: black;
+    color: white;
+}
+p4{
+    top: 15px;
+    left: 50px;
+    position: absolute;
+}
+div.box6{
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    left: 40px;
+    top: 460px;
+}
+div.box6:hover{
+    background-color: black;
+    color: white;
+}
+p5{
+    top: 15px;
+    left: 40px;
+    position: absolute;
+}
+h2{
+    color: rgb(76, 114, 129);
+    position: absolute;
+    font-size: 33px;
+    left: 95px;
+    top: 20px;
+}
+img.myimage{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+div.box7{
+    position: relative;
+    height: 120px;
+    width: 950px;
+    background-color: white;
+    left: 310px;
+    top: 40px;
+    border-radius: 30px;
+}
+h3{
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+div.subox7 {
+ height: 120px;
+ width: 130px;
+ background-color:rgb(194, 194, 194) ;
+ position: absolute;
+ left: 40%;
+ bottom: 5px;
+ transform:
+ perspective(750px)
+ translate3d(0px, 0px, -250px)
+ rotateX(27deg)
+ scale(0.9, 0.9);
+ border-radius: 20px;
+ border: 5px solid #e6e6e6;
+ box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+ transition: 0.4s ease-in-out transform;
+
+}
+div.subox7:hover{
+    transform: translate3d(0px, 0px, -250px);
+    background-color: rgb(124, 190, 216);
+}
+div.subox8 {
+ height: 120px;
+ width: 130px;
+ background-color:rgb(194, 194, 194) ;
+ position: absolute;
+ left: 54%;
+ bottom: 5px;
+ transform:
+ perspective(750px)
+ translate3d(0px, 0px, -250px)
+ rotateX(27deg)
+ scale(0.9, 0.9);
+ border-radius: 20px;
+ border: 5px solid #e6e6e6;
+ box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+ transition: 0.4s ease-in-out transform;
+
+}
+div.subox8:hover{
+    transform: translate3d(0px, 0px, -250px);
+    background-color: rgb(124, 190, 216);
+}
+div.subox9 {
+ height: 120px;
+ width: 130px;
+ background-color:rgb(194, 194, 194) ;
+ position: absolute;
+ left: 68%;
+ bottom: 5px;
+ transform:
+ perspective(750px)
+ translate3d(0px, 0px, -250px)
+ rotateX(27deg)
+ scale(0.9, 0.9);
+ border-radius: 20px;
+ border: 5px solid #e6e6e6;
+ box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+ transition: 0.4s ease-in-out transform;
+
+}
+div.subox9:hover{
+    transform: translate3d(0px, 0px, -250px);
+    background-color: rgb(124, 190, 216);
+}
+div.subox10 {
+ height: 120px;
+ width: 130px;
+ background-color:rgb(194, 194, 194) ;
+ position: absolute;
+ left: 82%;
+ bottom: 5px;
+ transform:
+ perspective(750px)
+ translate3d(0px, 0px, -250px)
+ rotateX(27deg)
+ scale(0.9, 0.9);
+ border-radius: 20px;
+ border: 5px solid #e6e6e6;
+ box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+ transition: 0.4s ease-in-out transform;
+
+}
+div.subox10:hover{
+    transform: translate3d(0px, 0px, -250px);
+    background-color: rgb(124, 190, 216);
+}
+div.box8{
+    height: 220px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 10px 30px 1px rgb(24, 192, 235);
+    left: 23%;
+    top: 70px;
+    border-radius: 30px;
+}
+div.box9{
+    height: 220px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 10px 30px 1px rgb(24, 192, 235);
+    left: 50%;
+    bottom: 150px;
+    border-radius: 30px;
+}
+img.logo1{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+}
+img.logo2{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+}
+div.box10{
+    height: 230px;
+    width: 250px;
+    position: relative;
+    bottom: 370px;
+    left: 75%;
+    background-color: rgb(124, 190, 216);
+    border-radius: 30px;
+    transform:
+    perspective(2000px)
+    translate3d(0px, -66px, 198px)
+    rotateX(-55deg)
+    scale3d(0.86, 0.75, 1)
+    translateY(50px);
+    will-change: transform;
+    transition: 0.4s ease-in-out transform;
+}
+div.box10:hover{
+    transform: scale3d(1, 1, 1);
+}
+p6{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 20px;
+    left: 55px;
+}
+p7{
+    position: absolute;
+    font-size: 17px;
+    left: 55px;
+    top: 65px;
+}
+p8{
+    position: absolute;
+    font-size: 17px;
+    left: 55px;
+    top: 100px;
+}
+p9{
+    position: absolute;
+    font-size: 17px;
+    left: 55px;
+    top: 140px;
+}
+div.box11{
+    position: absolute;
+    height: 40px;
+    width: 350px;
+    background-color: white;
+    bottom: 160px;
+    left: 310px;
+    border-radius: 20px;
+}
+div.box11:hover{
+    background-color: rgb(124, 190, 216);
+}
+div.box12{
+    position: absolute;
+    height: 40px;
+    width: 350px;
+    background-color: white;
+    bottom: 90px;
+    left: 310px;
+    border-radius: 20px;
+}
+div.box12:hover{
+    background-color: rgb(124, 190, 216);
+}
+div.box13{
+    position: absolute;
+    height: 40px;
+    width: 350px;
+    background-color: white;
+    bottom: 20px;
+    left: 310px;
+    border-radius: 20px;
+}
+div.box13:hover{
+    background-color: rgb(124, 190, 216);
+}
+p11{
+    position: absolute;
+    font-size: 17px;
+     top: 10px;
+     left: 50px;
+}
+img.durationicon{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+div.box14{
+    height: 180px;
+    width: 200px;
+    background-color: rgba(84, 84, 226, 0.733);
+    border-radius: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 51%;
+}
+div.box15{
+    height: 180px;
+    width: 200px;
+    background-color: rgba(84, 84, 226, 0.733);
+    border-radius: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 67%;
+}
+div.box16{
+    height: 180px;
+    width: 200px;
+    background-color: rgba(84, 84, 226, 0.733);
+    border-radius: 30px;
+    position: absolute;
+    bottom:20px;
+    left:83%;
+}
+p12{
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    top: 20px;
+    left: 30px;
+}
+p13{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top: 70px;
+    left: 30px;
+}
+p10{
+    position: absolute;
+    font-size: 22px;
+    color: rgb(76, 114, 129);
+    left: 100px;
+    top: 10px;
+}
+img.instagram{
+    position: absolute;
+    top: 120px;
+    left: 10px;
+}
+img.github{
+    position: absolute;
+    top: 125px;
+    left: 70px;
+}
+img.linkdin{
+    position: absolute;
+    top: 125px;
+    left: 125px;
+}
+img.facebook{
+    position: absolute;
+    top: 125px;
+    left: 175px;
+}
+h5{
+    position: absolute;
+    top: 97%;
+    left: 180px;
+    color: black;
+}
+@media only screen and (max-width:700px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: gainsboro;
+    }
+    div.bigbox{
+        height: 1600px;
+        width: 90%;
+        background-color: gainsboro;
+        position: relative;
+    }
+    div.sidebar{
+        position: absolute;
+        height: 180px;
+        width: 425px;
+        background-color: aqua;
+    }
+    div.container{
+       display: grid;
+       place-items: center;
+       position: absolute;
+       top: 20px;
+       left: 10px;
+       display: block;
+    }
+    div.groupmenu{
+        cursor: pointer;
+    }
+    div.menu{
+        width: 50px;
+        height: 10px;
+        background-color: white;
+        margin-top: 4px;
+    }
+    .frame1{
+        visibility: hidden;
+    }
+    .frame1 .info{
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+        padding: 5px;
+        cursor: pointer;
+    }
+    .frame1 .info:hover{
+         background-color: black;
+         color: white;
+    }
+    span{
+        margin-left: 20px;
+    }
+    .style{
+        width: 200px;
+        height: 195px;
+        background-color: white;
+        position: absolute;
+        left: 50px;
+        top: 5px;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.493);
+    }
+    div.box3{
+        height: 50px;
+        width: 90px;
+        position: absolute;
+        background-color: white ;
+        border-radius: 50px;
+        color: black;
+        left: 10px;
+        top: 100px;
+    }
+    div.box3:hover{
+        background-color: black;
+        color: white;
+    }
+    p2{
+        top: 17px;
+        left: 15px;
+        position: absolute;
+        font-size: 13px;
+    }
+    div.box4{
+        height: 50px;
+        width: 90px;
+        position: absolute;
+        background-color: white;
+        border-radius: 50px;
+        color: black;
+        left: 110px;
+        top: 100px;
+    }
+    div.box4:hover{
+        background-color: black;
+        color: white;
+    }
+    p3{
+        top: 17px;
+        left: 23px;
+        position: absolute;
+        font-size: 13px;
+    }
+    div.box5{
+        height: 50px;
+        width: 90px;
+        position: absolute;
+        background-color: white;
+        border-radius: 50px;
+        color: black;
+        left: 215px;
+        top: 100px;
+    }
+    div.box5:hover{
+        background-color: black;
+        color: white;
+    }
+    p4{
+        top: 17px;
+        left: 26px;
+        position: absolute;
+        font-size: 13px;
+    }
+    div.box6{
+        height: 50px;
+        width: 90px;
+        position: absolute;
+        background-color: white;
+        border-radius: 50px;
+        color: black;
+        left: 315px;
+        top: 100px;
+    }
+    div.box6:hover{
+        background-color: black;
+        color: white;
+    }
+    p5{
+        top: 17px;
+        left: 20px;
+        position: absolute;
+        font-size: 13px;
+    }
+    h2{
+        color: rgb(76, 114, 129);
+        position: absolute;
+        font-size: 25px;
+        left: 95px;
+        top: 20px;
+    }
+    img.myimage{
+        position: absolute;
+        top: 20px;
+        left: 18px;
+        height: 50px;
+    }
+    div.box7{
+        position: relative;
+        height: 210px;
+        width: 400px;
+        background-color: white;
+        left: 13px;
+        top: 210px;
+        border-radius: 30px;
+    }
+    h3{
+        position: absolute;
+        top: 60px;
+        left: 10px;
+    }
+    div.subox7 {
+     height: 100px;
+     width: 100px;
+     background-color:rgb(194, 194, 194) ;
+     position: absolute;
+     left: 1px;
+     top: 100px;
+     transform:
+     perspective(750px)
+     translate3d(0px, 0px, -250px)
+     rotateX(27deg)
+     scale(0.9, 0.9);
+     border-radius: 20px;
+     border: 5px solid #e6e6e6;
+     box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+     transition: 0.4s ease-in-out transform;
+    
+    }
+    div.subox7:hover{
+        transform: translate3d(0px, 0px, -250px);
+        background-color: rgb(124, 190, 216);
+    }
+    div.subox8 {
+        height: 100px;
+        width: 100px;
+        background-color:rgb(194, 194, 194) ;
+        position: absolute;
+        left: 102px;
+        top: 100px;
+        transform:
+        perspective(750px)
+        translate3d(0px, 0px, -250px)
+        rotateX(27deg)
+        scale(0.9, 0.9);
+        border-radius: 20px;
+        border: 5px solid #e6e6e6;
+        box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+        transition: 0.4s ease-in-out transform;
+    
+    }
+    div.subox8:hover{
+        transform: translate3d(0px, 0px, -250px);
+        background-color: rgb(124, 190, 216);
+    }
+    div.subox9 {
+     height: 100px;
+     width: 100px;
+     background-color:rgb(194, 194, 194) ;
+     position: absolute;
+     left: 200px;
+     top: 100px;
+     transform:
+     perspective(750px)
+     translate3d(0px, 0px, -250px)
+     rotateX(27deg)
+     scale(0.9, 0.9);
+     border-radius: 20px;
+     border: 5px solid #e6e6e6;
+     box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+     transition: 0.4s ease-in-out transform;
+    
+    }
+    div.subox9:hover{
+        transform: translate3d(0px, 0px, -250px);
+        background-color: rgb(124, 190, 216);
+    }
+    div.subox10 {
+     height: 100px;
+     width: 100px;
+     background-color:rgb(194, 194, 194) ;
+     position: absolute;
+     left: 290px;
+     top: 100px;
+     transform:
+     perspective(750px)
+     translate3d(0px, 0px, -250px)
+     rotateX(27deg)
+     scale(0.9, 0.9);
+     border-radius: 20px;
+     border: 5px solid #e6e6e6;
+     box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+     transition: 0.4s ease-in-out transform;
+    
+    }
+    div.subox10:hover{
+        transform: translate3d(0px, 0px, -250px);
+        background-color: rgb(124, 190, 216);
+    }
+    div.box8{
+        height: 240px;
+        width: 380px;
+        background-color: white;
+        position: relative;
+        box-shadow: 0 10px 30px 1px rgb(24, 192, 235);
+        left: 20px;
+        top: 250px;
+        border-radius: 30px;
+    }
+    div.box9{
+        height: 240px;
+        width: 380px;
+        background-color: white;
+        position: relative;
+        box-shadow: 0 10px 30px 1px rgb(24, 192, 235);
+        left: 20px;
+        top: 280px;
+        border-radius: 30px;
+    }
+    img.logo1{
+        position: absolute;
+        left: 5px;
+        top: 30px;
+        width: 360px;
+    }
+    img.logo2{
+        position: absolute;
+        left: 10px;
+        top: 30px;
+        width: 360px;
+    }
+    div.box10{
+        height: 170px;
+        width: 180px;
+        position: relative;
+        top: 800px;
+        left: 20px;
+        background-color: rgb(124, 190, 216);
+        border-radius: 30px;
+        transform:
+        perspective(2000px)
+        translate3d(0px, -66px, 198px)
+        rotateX(-55deg)
+        scale3d(0.86, 0.75, 1)
+        translateY(50px);
+        will-change: transform;
+        transition: 0.4s ease-in-out transform;
+    }
+    div.box10:hover{
+        transform: scale3d(1, 1, 1);
+    }
+    p6{
+        position: absolute;
+        font-size: 17px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        top: 25px;
+        left: 40px;
+    }
+    p7{
+        position: absolute;
+        font-size: 17px;
+        left: 50px;
+        top: 70px;
+    }
+    p8{
+        position: absolute;
+        font-size: 17px;
+        left: 50px;
+        top: 100px;
+    }
+    p9{
+        position: absolute;
+        font-size: 17px;
+        left: 50px;
+        top: 130px;
+    }
+    div.box11{
+        position: absolute;
+        height: 60px;
+        width: 380px;
+        background-color: white;
+        top: 63%;
+        left: 20px;
+        border-radius: 20px;
+    }
+    div.box11:hover{
+        background-color: rgb(124, 190, 216);
+    }
+    div.box12{
+        position: absolute;
+        height: 60px;
+        width: 380px;
+        background-color: white;
+        top: 69%;
+        left: 20px;
+        border-radius: 20px;
+    }
+    div.box12:hover{
+        background-color: rgb(124, 190, 216);
+    }
+    div.box13{
+        position: absolute;
+        height: 60px;
+        width: 380px;
+        background-color: white;
+        top: 75%;
+        left: 20px;
+        border-radius: 20px;
+    }
+    div.box13:hover{
+        background-color: rgb(124, 190, 216);
+    }
+    p11{
+        position: absolute;
+        font-size: 15px;
+         top: 25px;
+         left: 70px;
+    }
+    img.durationicon{
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        height: 40px;
+    }
+    div.box14{
+        height: 170px;
+        width: 180px;
+        background-color: rgba(84, 84, 226, 0.733);
+        border-radius: 30px;
+        position: absolute;
+        bottom: 140px;
+        left: 20px;
+    }
+    div.box15{
+        height: 170px;
+        width: 180px;
+        background-color: rgba(84, 84, 226, 0.733);
+        border-radius: 30px;
+        position: absolute;
+        bottom: 140px;
+        left: 220px;
+    }
+    div.box16{
+        height: 170px;
+        width: 180px;
+        background-color: rgba(84, 84, 226, 0.733);
+        border-radius: 30px;
+        position: absolute;
+        top: 93%;
+        left:220px;
+    }
+    p12{
+        position: absolute;
+        color: black;
+        font-size: 30px;
+        top: 20px;
+        left: 30px;
+    }
+    p13{
+        position: absolute;
+        color: white;
+        font-size: 40px;
+        top: 70px;
+        left: 30px;
+    }
+    p10{
+        position: absolute;
+        font-size: 18px;
+        color: black;
+        left: 90px;
+        top: 5px;
+    }
+    img.instagram{
+        position: absolute;
+        top: 20px;
+        left: 230px;
+        height: 45px;
+    }
+    img.github{
+        position: absolute;
+        top: 23px;
+        left: 280px;
+        height: 35px;
+    }
+    img.linkdin{
+        position: absolute;
+        top: 21px;
+        left: 330px;
+        height: 35px;
+    }
+    img.facebook{
+        position: absolute;
+        top: 19px;
+        left: 375px;
+        height: 40px;
+    }
+    h5{
+        position: absolute;
+        top: 89%;
+        left: 330px;
+        color: black;
+        font-size: 15px;
+    }
+}
